@@ -1,0 +1,23 @@
+:root{
+    --green: #117A7A;
+    --red:#B2324A;
+    --white:#FFFFFF;
+    --shadow:#D9D9D9;
+    --grey:#5A5A5A;
+    }
+input ::placeholder{
+    border-radius: 10px 0px 0px 10px;
+    color: var(--green);
+    display: flex;
+    width: 587px;
+    padding: 16px 20px;
+    align-items: flex-start;
+    gap: 10px;
+}
+.list-conteiner{
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}

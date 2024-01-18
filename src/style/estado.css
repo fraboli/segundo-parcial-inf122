@@ -1,0 +1,27 @@
+
+.completo{
+    border-radius: 10px;
+    border: 1px solid #D9D9D9;
+    background: #FFF;
+    color: #117A7A;
+    padding: 10px 16px;
+}
+p{
+    display: flex;
+    width: 334px;
+    padding: 10px 16px;
+    align-items: flex-start;
+    gap: 10px;
+}
+.pendiente{
+    border-radius: 10px;
+    border: 1px solid #D9D9D9;
+    background: #FFF;
+    color: #B2324A;
+}
+.estado-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-self: stretch;
+}
